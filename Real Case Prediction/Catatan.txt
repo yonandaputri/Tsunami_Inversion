@@ -1,0 +1,6 @@
+Data 
+
+1. DATA_OBS: Data signal tsunami GAK pada 4 titik station yang masih tercampur dengan data Tide
+2. DATA_OBS_KRAKATAU : Data signal tsunami GAK pada 4 titik station yang sudah dikurangi Tide
+3. BP_Krakatau.txt : location of points in DATA_OBS
+
