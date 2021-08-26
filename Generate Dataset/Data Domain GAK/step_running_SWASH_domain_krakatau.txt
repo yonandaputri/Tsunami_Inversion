@@ -1,0 +1,24 @@
+Cara generate dataset domain krakatau:
+1. Copy file 'AutomaticSwash.py' dan 'BATNAS_KRAKATAU_LARGE_V01X.txt' ke 2 folder, yaitu : folder data train, dan folder data test 
+2. Buka file 'AutomaticSwash.py' di notepad
+3. Untuk mengganti jumlah data, edit number pada file tersebut, misal : number = 100 untuk data train
+	number = 100
+	array_x0 = np.random.uniform(low=600, high=620, size=(number,))
+	array_y0 = np.random.uniform(low=440, high=460, size=(number,))
+	array_a0 = np.random.uniform(low=1, high=1.5, size=(number,))
+	array_a1 = np.random.uniform(low=1, high=1.5, size=(number,))
+	array_rx = np.random.uniform(low=1.5, high=9, size=(number,))
+	array_ry = np.random.uniform(low=1.5, high=9, size=(number,))
+	array_r0 = np.random.uniform(low=0, high=45, size=(number,))
+4. Ganti np.random.seed: 100 untuk data test, 105 untuk data train
+	np.random.seed(100)
+5. Save dan running 'AutomaticSwash.py'
+6. Buka dan jalankan file matlab 'fun_PP_INVERSE_v031.m' per folder data, untuk mendapatkan data titik:
+	GAUSS_03_ETA_Loc.txt
+	GAUSS_03_ETA.txt
+	GAUSS_03_BP1.txt
+	GAUSS_03_BP2.txt
+	GAUSS_03_BP3.txt
+	GAUSS_03_BP4.txt
+   Misal: jalankan file matlab dan pilih folder 1, jika folder sampai 100 ulangi sampai 100 kali
+	
