@@ -1,6 +1,4 @@
-# Tugas Akhir
-Tugas akhir sebagai syarat kelulusan program sarjana yang saya buat kali ini berjudul 
-<strong>"Pendekatan Inversi Tsunami Menggunakan Metode Recurrent Neural Network dan Long Short-Term Memory, Studi Kasus: Gunung Anak Krakatau"</strong>
+Penelitian kali ini berjudul <strong>"Pendekatan Inversi Tsunami Menggunakan Metode Recurrent Neural Network dan Long Short-Term Memory, Studi Kasus: Gunung Anak Krakatau"</strong>
 yaitu melakukan prediksi terhadap initial condition dari kejadian tsunami di Gunung Anak Krakatau.
 
 Data yang digunakan untuk menguji model dibagi menjadi dua yaitu *data domain rectangle* dan *data domain Gunung Anak Krakatau*. 
